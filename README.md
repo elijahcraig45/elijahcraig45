@@ -40,9 +40,10 @@ What I'd point an engineer at:
 - **Evaluation decides what ships.** A candidate model is backtested walk-forward against the current
   one on the same games, with paired-bootstrap confidence intervals, then runs as a live shadow before
   it can replace anything. In football a margin ridge model replaced XGBoost this way (NFL 2017–24
-  log loss 0.634 vs 0.646; college 2025: 0.480 vs 0.531). Most candidates don't make it: a
-  plate-appearance simulator, an NFL drive simulator and an Optuna search across seven model families
-  all stayed out of production.
+  log loss 0.634 vs 0.646; college 2025: 0.480 vs 0.531). The NFL comparison reruns on a laptop in
+  seconds with [`make demo`](https://github.com/elijahcraig45/hanks_tank_ml/tree/main/demo), no account
+  needed. Most candidates don't make it: a plate-appearance simulator, an NFL drive simulator and an
+  Optuna search across seven model families all stayed out of production.
 - **Honest numbers.** The MLB model picked 54.0% of 1,984 games correctly before first pitch in 2026,
   against a 52.8% home-team win rate. Baseball games are close to coin flips, and the
   [experiment log](https://github.com/elijahcraig45/hanks_tank_ml/blob/main/docs/EXPERIMENT_LOG.md)
