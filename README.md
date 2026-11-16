@@ -65,15 +65,14 @@ What I'd point an engineer at:
 | [hanks_tank](https://github.com/elijahcraig45/hanks_tank) | The site (React, D3) |
 | [hanks_tank_lab](https://github.com/elijahcraig45/hanks_tank_lab) | The ML lab and control plane: registry, backtests, pipeline runner, health checks (Python) |
 
-The homelab configuration is private for now while I strip out host details.
-
 ## Homelab
 
 A small Dell OptiPlex running Debian: around 20 containers (photos with on-device ML, media, documents,
 DNS), the ML lab and the production pipeline jobs. Nothing is exposed to the public internet; remote
 access goes over Tailscale. The host is described in Ansible (15 roles), monitored with Uptime Kuma
 and custom host checks, and backed up nightly with an offsite copy in Google Cloud Storage. A
-Raspberry Pi runs a touchscreen [wall calendar](https://github.com/elijahcraig45/wallCalendar).
+Raspberry Pi runs a touchscreen [wall calendar](https://github.com/elijahcraig45/wallCalendar). The Ansible,
+monitoring and backup code and the incident write-ups are in [homelab](https://github.com/elijahcraig45/homelab).
 
 ## Also
 
