@@ -63,8 +63,9 @@ What I'd point an engineer at:
 | [hanks_tank_ml](https://github.com/elijahcraig45/hanks_tank_ml) | Models, features, backtests, shadow models, rankings, season sims (Python) |
 | [hanks_tank_backend](https://github.com/elijahcraig45/hanks_tank_backend) | The API (TypeScript, Express) |
 | [hanks_tank](https://github.com/elijahcraig45/hanks_tank) | The site (React, D3) |
+| [hanks_tank_lab](https://github.com/elijahcraig45/hanks_tank_lab) | The ML lab and control plane: registry, backtests, pipeline runner, health checks (Python) |
 
-The ML lab and the homelab configuration are private for now while I strip out host details.
+The homelab configuration is private for now while I strip out host details.
 
 ## Homelab
 
